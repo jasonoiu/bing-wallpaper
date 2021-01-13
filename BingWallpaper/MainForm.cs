@@ -253,7 +253,7 @@ namespace BingWallpaper
                 {
                     var img = await CurrentWallpaper.getImage();
                     Wallpaper.Set(img, Wallpaper.Style.Stretched);
-                    ShowSetWallpaperNotification();
+                    //ShowSetWallpaperNotification();
                 }
                 catch
                 {
